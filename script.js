@@ -5,7 +5,7 @@ const twitterButton = document.getElementById('twitter');
 const newQuoteButton = document.getElementById('new-quote');
 const loader = document.getElementById('loader');
 
-// Show Loading
+// Show loading
 function loading(){
     loader.hidden = false;
     quoteContainer.hidden = true;
